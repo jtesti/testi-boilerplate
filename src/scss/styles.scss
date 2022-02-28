@@ -1,0 +1,45 @@
+@import "./base/_main";
+
+@import "./header/_header";
+
+@import "./navigation/_navigation";
+
+@import "./section/hero/_hero";
+
+@import "./section/gallery/_gallery";
+
+@import "./base/_mixins";
+
+main {
+  margin: $margin-viewport;
+
+  @include tablet {
+    font-size: 36px;
+  }
+  @include desktop {
+    font-size: 42px;
+  }
+}
+
+header {
+  margin: 0 50px;
+
+  @include tablet {
+    font-size: 36px;
+  }
+  @include desktop {
+    font-size: 42px;
+  }
+}
+
+section {
+  margin: 0 50px;
+
+  @include tablet {
+    font-size: 36px;
+  }
+  @include desktop {
+    font-size: 42px;
+  }
+}
+
